@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Foldit&display=swap" rel="stylesheet">
+    <title>Slide in on Scroll</title>
+    <style>
+        @layer utilities{
+            .font-family{
+                font-family: 'Acme', sans-serif;
+                font-family: 'Foldit', cursive;
+            }
+
+            .active {
+                --tw-translate-x: 0px;
+                transform: translateX(var(--tw-translate-x)) ;
+                opacity: 1 !important;
+                transition: transform 0.3s ease-in-out;
+             }
+
+        }
+    </style>
+</head>
+<body class="bg-rose-500 select-none">
+    <h1 class="text-[8rem] mb-[8px] font-bold font-family text-center">Slide in on Scroll</h1>
+    <h1 class="font-family text-[4rem] text-center">Beautiful Background</h1>
+    <div class="images flex flex-col justify-evenly bg-rose-300 w-[90%] mx-auto h-[2000px] rounded-xl overflow-hidden">
+        <div class="flex ">
+            <img src="/images/75ff3597498cd4caee81cc617a5c5024.jpg" class="w-[400px] h-[200px] rounded-md border-black border-2 translate-x-[-137px]  opacity-0" alt="">
+            <h1 class="px-[20px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h1>
+        </div>
+        <div class="flex">
+            <h1 class="px-[20px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h1>
+            <img src="/images/cba449ad940ccad7c4ce078237d70e4e.jpg" class="w-[400px] h-[300px] rounded-md border-black border-2 translate-x-[137px]  opacity-0" alt="">
+        </div>
+        <div class="flex">
+            <img src="/images/d2b6528d35768d1a6185775f390353e6.jpg" class="w-[400px] h-[300px] rounded-md border-black border-2 translate-x-[-137px]  opacity-0" alt="">
+            <h1 class="px-[20px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </h1>
+        </div>
+        <div class="flex">
+            <h1 class="px-[20px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </h1>
+            <img src="/images/d3e0f1357e3a9d44ab01069ae79e23a2.jpg" class="w-[400px] h-[300px] rounded-md border-black border-2 translate-x-[137px]  opacity-0" alt="">
+        </div>
+        <div class="flex">
+            <img src="/images/e78083428ddeb1353c81618228d31ad0.jpg" class="w-[500px] h-[300px] rounded-md border-black border-2 translate-x-[-137px]  opacity-0" alt="">
+            <h1 class="px-[20px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </h1>
+        </div>
+        <div class="flex">
+            <h1 class="px-[20px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </h1>
+            <img src="/images/f7d42de12001983c9f4ca1acfa59fc64.jpg" class="w-[400px] h-[300px] rounded-md border-black border-2 translate-x-[137px] opacity-0" alt="">
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
